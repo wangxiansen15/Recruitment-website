@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>部门介绍</title>
+<link href="../css/departmental.css" rel="stylesheet" type="text/css">
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/departmental.js"></script>
+</head>
+<body>
+<div class="nav">
+	<div class="nav1"><img src="../static/logo1.png"></div>
+	<div class="nav2">
+		<div class="div1" onmouseover="displaySubMenu()" onmouseout="hideSubMenu()">
+			<a href="#">关于凡路</a>
+			<div class="div3">
+            	<a>部门介绍</a>
+                <a id="chengjiu">指导老师及部门成就</a>
+            </div>
+		</div>
+		<div class="div1">
+			<a id="tongzhi">通知</a>
+		</div>
+		<div class="div1">
+			<a id="zhuangtai">个人状态</a>
+		</div>
+		<div class="div1">
+			<a id="fanhui">返回首页</a>
+		</div>
+	</div>
+</div> 
+<div class="box">
+
+	<div class="list">
+		<ul>
+			<li class="p7">
+				<div class="main" style="background: url(../static/11.jpg); background-repeat: no-repeat;background-size:100% 100%;">
+                    <h1>硬件技术部</h1>
+                    <div class="main1"><p>部门的主要方向是单片机与嵌入式的学习，学科竞赛多是部门的一个特色，只要你有精力，每年可以参加十多个竞赛。如果喜欢嵌入式，偏爱linux操作系统或者你对物联网，智能硬件有兴趣，喜欢自己动手做一些东西，那就来这里吧。</p></div>
+                </div>
+            </li>
+			<li class="p6">
+				<div class="main" style="background: url(../static/00.jpeg); background-repeat: no-repeat;background-size:100% 100%;">
+                    <h1>系统技术部</h1>
+                    <div class="main2"><p>此部门学习的是基于c++的Qt开发，主要开发GUI(图形用户界面)程序，比如控制台工具和服务器等，现在又开始开发与Linux系统有关的程序。丰富的图形用户界面的桌面软件极大地提高了我们的生产力，提高了我们工作和学习的效率，且采用Qt进行程序的开发有优良的跨平台特性，也是系统编程部门的主要特色之一。除此之外，此部门还会学习Python相关知识,主要有数据爬取、数据分析、编写脚本。</p></div>
+                </div>
+            </li>
+			<li class="p5">
+				<div class="main" style="background: url(../static/37.jpg); background-repeat: no-repeat;background-size:100% 100%;">
+                    <h1>服务端技术部</h1>
+                    <div class="main3"><p>后台部门是由Java应用开发部门发展而来，主从事Java和php后台开发。后台开发负责数据存储和逻辑处理。部门经过多年的实践探索，总结出来了成熟的学习路线。稳定高效地向客户端提供资源和数据等是服务端的学习目的。学习内容包括Java基础(初期)、JavaEE、php基础和后台应用，后期主要依靠成员自主学习。</p></div>
+               </div>
+           </li>
+			<li class="p4">
+				<div class="main" style="background: url(../static/27.jpg); background-repeat: no-repeat;background-size:100% 100%;">
+                    <h1>前端开发部</h1>
+                    <div class="main4"><p>当你看到一个漂亮的网站的时候，你是否有兴趣了解它是如何制作出来的？当你看到页面上五颜六色的绚烂效果，你是否会感叹网页动画的神奇之处？而前端部门就是这样一个可以给你视觉满足的平台。在这里你不仅能学习到传统的网页制作技术，还能学到如微信小程序、移动端网页、网页小游戏开发等新颖的技术。</p></div>
+                </div>
+            </li>
+			<li class="p3">
+				<div class="main" style="background: url(../static/19.jpg); background-repeat: no-repeat;background-size:100% 100%;">
+                    <h1>移动端开发部</h1>
+                    <div class="main1"><p>说起移动端你可能有点陌生，但如果说手机APP那你一定很熟悉，你每天使用的各种精良手机APP都是有移动端开发者完成的。部门主要分为Android开发和iOS开发，APP开发不同于web前端和后台，他既有有趣的后台逻辑，又有美观的前端界面，它既可以脱离服务器后台独立存在，又可以依靠服务器获得良好的联机互交和远程数据储存，如果你也想开发精美的移动端APP，欢迎你的加入哦~</p></div>
+                </div>
+            </li>
+			<li class="p2">
+				<div class="main" style="background: url(../static/9.jpg); background-repeat: no-repeat;background-size:100% 100%;">
+                    <h1>游戏开发部</h1>
+                    <div class="main1"><p>它是一个具有新生力的部门，如同初升的太阳，冉冉升起，具有活力。这里有埋头苦干，积极进取但不失生活乐趣的程序人员；这里有脑洞大开，想像丰富但符合逻辑的游戏策划；这里有美术一流，画面带感但仍不断升华的美工大神，我们想做艺术性的游戏，想做尊重玩家的游戏，更想做自己梦想中最向往的游戏！如果你也是，那么我们志同道合。</p></div>
+                </div>
+            </li>
+			<li class="p1">
+				<div class="main" style="background: url(../static/43.jpg); background-repeat: no-repeat;background-size:100% 100%;">
+                    <h1>产品策划部</h1>
+                    <div class="main1"><p>策划部是我们实验室一个新兴的部门，致力于培养产品经理，面向全校招生。一款优秀的应用的诞生离不开技术人员高超的技术支持，还离不开策划人员对项目的策划，只有这样项目的开发才能顺利高效的进行，项目的质量才能得到保障。只要你对策划感兴趣或者你想提升自己这方面的能力，那么这里就是你的不二之选，策划部欢迎你的加入！</p></div>
+                </div>
+            </li>
+		</ul>
+	</div>
+	
+	<a href="javascript:;" class="prev btn"><</a>
+	<a href="javascript:;" class="next btn1">></a>
+
+	<div class="buttons">
+		<a href="javascript:;"><span class="blue"></span></a>
+		<a href="javascript:;"><span></span></a>
+		<a href="javascript:;"><span></span></a>
+		<a href="javascript:;"><span></span></a>
+		<a href="javascript:;"><span></span></a>
+		<a href="javascript:;"><span></span></a>
+		<a href="javascript:;"><span></span></a>
+	</div>
+</div>
+
+<script type="text/javascript">
+var $a=$(".buttons a");
+var $s=$(".buttons span");
+var cArr=["p7","p6","p5","p4","p3","p2","p1"];
+var index=0;
+$(".next").click(
+	function(){
+	nextimg();
+	}
+)
+$(".prev").click(
+	function(){
+	previmg();
+	}
+)
+//上一张
+function previmg(){
+	cArr.unshift(cArr[6]);
+	cArr.pop();
+	//i是元素的索引，从0开始
+	//e为当前处理的元素
+	//each循环，当前处理的元素移除所有的class，然后添加数组索引i的class
+	$("li").each(function(i,e){
+		$(e).removeClass().addClass(cArr[i]);
+	})
+	index--;
+	if (index<0) {
+		index=6;
+	}
+	show();
+}
+
+//下一张
+function nextimg(){
+	cArr.push(cArr[0]);
+	cArr.shift();
+	$("li").each(function(i,e){
+		$(e).removeClass().addClass(cArr[i]);
+	})
+	index++;
+	if (index>6) {
+		index=0;
+	}
+	show();
+}
+
+//通过底下按钮点击切换
+$a.each(function(){
+	$(this).click(function(){
+		var myindex=$(this).index();
+		var b=myindex-index;
+		if(b==0){
+			return;
+		}
+		else if(b>0) {
+			/*
+			 * splice(0,b)的意思是从索引0开始,取出数量为b的数组
+			 * 因为每次点击之后数组都被改变了,所以当前显示的这个照片的索引才是0
+			 * 所以取出从索引0到b的数组,就是从原本的这个照片到需要点击的照片的数组
+			 * 这时候原本的数组也将这部分数组进行移除了
+			 * 再把移除的数组添加的原本的数组的后面
+			 */
+			var newarr=cArr.splice(0,b);
+			cArr=$.merge(cArr,newarr);
+			$("li").each(function(i,e){
+			$(e).removeClass().addClass(cArr[i]);
+			})
+			index=myindex;
+			show();
+		}
+		else if(b<0){
+			/*
+			 * 因为b<0,所以取数组的时候是倒序来取的,也就是说我们可以先把数组的顺序颠倒一下
+			 * 而b现在是负值,所以取出索引0到-b即为需要取出的数组
+			 * 也就是从原本的照片到需要点击的照片的数组
+			 * 然后将原本的数组跟取出的数组进行拼接
+			 * 再次倒序,使原本的倒序变为正序
+			 */
+			cArr.reverse();
+			var oldarr=cArr.splice(0,-b)
+			cArr=$.merge(cArr,oldarr);
+			cArr.reverse();
+			$("li").each(function(i,e){
+			$(e).removeClass().addClass(cArr[i]);
+			})
+			index=myindex;
+			show();
+		}
+	})
+})
+
+//改变底下按钮的背景色
+function show(){
+		$($s).eq(index).addClass("blue").parent().siblings().children().removeClass("blue");
+}
+
+//点击class为p2的元素触发上一张照片的函数
+$(document).on("click",".p2",function(){
+	previmg();
+	return false;//返回一个false值，让a标签不跳转
+});
+
+//点击class为p4的元素触发下一张照片的函数
+$(document).on("click",".p4",function(){
+	nextimg();
+	return false;
+});
+
+//			鼠标移入box时清除定时器
+$(".box").mouseover(function(){
+	clearInterval(timer);
+})
+
+//			鼠标移出box时开始定时器
+$(".box").mouseleave(function(){
+	timer=setInterval(nextimg,4000);
+})
+
+//			进入页面自动开始定时器
+timer=setInterval(nextimg,4000);
+</script>
+
+<div style="text-align:center;clear:both">
+</div>
+
+</body>
+</html>

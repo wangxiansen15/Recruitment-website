@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>个人介绍</title>
+   <link href="../css/personalInformation.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/Mtils.js"></script>
+    <script src="../js/personalInformation.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- 选项栏 -->
+    <div class="nav">
+  <div class="nav1"><img src="../static/logo1.png"></div>
+  <div class="nav2">
+    <div class="div1" onmouseover="displaySubMenu()" onmouseout="hideSubMenu()">
+      <a href="#">关于凡路</a>
+      <div class="div3">
+              <a id="jieshao">部门介绍</a>
+                <a id="chengjiu">指导老师及部门成就</a>
+            </div>
+    </div>
+    <div class="div1">
+      <a id="tongzhi">通知</a>
+    </div>
+    <div class="div1">
+      <a id="#">个人状态</a>
+    </div>
+    <div class="div1">
+      <a id="wenjuan">调查问卷</a>
+    </div>
+  </div>
+</div> 
+      <li class="big1"><p><a id="zhuxiao" style="color: white">注销</a></p></li>
+      <li class="big1" style="cursor:hand" id="change">
+          <p>修改</p>
+          <div id="change1">
+              <div class="change1" id="name1">姓名</div>
+              <div class="change1" id="cls1">班级</div>
+              <div class="change1" id="academy1">学院</div>
+              <div class="change1" id="email1">邮箱</div>
+              <div class="change1" id="password1">密码</div>
+          </div>
+      </li>
+      <!-- 状态 -->
+      <div class="photo">
+        <div class="middle"></div>
+      <div class="photo1">
+        <h1>姓名</h1>
+        <h2 id="name"></h2>
+      </div>
+      <div class="photo2">
+        <h1>学号</h1>
+        <h2 id="id"></h2>
+      </div>
+      <div class="photo3">
+        <h1>学院</h1>
+        <h2 id="academy"></h2>
+      </div>
+      <div class="photo4">
+        <h1>班级</h1>
+        <h2 id="cls"></h2>
+      </div>
+      <div class="photo5">
+        <h1>面试情况</h1>
+        <h2 id="sort"></h2>
+      </div>
+      <div class="photo6">
+        <h1>邮箱</h1>
+        <h2 id="youxiang"></h2>
+      </div>
+      </div>
+      <div id="boxbox">
+          <div class="xiugaikuang">
+              <p>请输入您的姓名</p>
+              <input type="text" id="name2"><br><br>
+              <p id="p2"></p>
+              <div class="anniu"><input type="button" value="确认" id="qr2" class="qr"><input type="button" value="取消" id="qx2" class="qx"></div>
+          </div>
+          <div class="xiugaikuang">
+              <p>请输入您的班级</p>
+              <input type="text" id="cls2"><br><br>
+              <p id="p3"></p>
+              <div class="anniu"><input type="button" value="确认" id="qr3" class="qr"><input type="button" value="取消" id="qx3" class="qx"></div>
+          </div>
+          <div class="xiugaikuang">
+              <p>请输入您的学院</p>
+              <select id="xy">
+                  <option value="false" selected="selected">未选择</option>
+                  <option value="交通运输工程学院">交通运输工程学院</option>
+                  <option value="土木工程学院">土木工程学院</option>
+                  <option value="汽车与机械工程学院">汽车与机械工程学院</option>
+                  <option value="水利工程学院">水利工程学院</option>
+                  <option value="电气与信息工程学院">电气与信息工程学院</option>
+                  <option value="能源与动力工程学院">能源与动力工程学院</option>
+                  <option value="经济与管理学院">经济与管理学院</option>
+                  <option value="计算机与通信工程学院">计算机与通信工程学院</option>
+                  <option value="化学与食品工程学院">化学与食品工程学院</option>
+                  <option value="数学与统计学院">数学与统计学院</option>
+                  <option value="物理与电子科学学院">物理与电子科学学院</option>
+                  <option value="材料科学与工程学院">材料科学与工程学院</option>
+                  <option value="建筑学院">建筑学院</option>
+                  <option value="马克思主义学院">马克思主义学院</option>
+                  <option value="文法学院">文法学院</option>
+                  <option value="外国语学院">外国语学院</option>
+                  <option value="设计艺术学院">设计艺术学院</option>
+                  <option value="体育学院">体育学院</option>
+                  <option value="国际学院">国际学院</option>
+                  <option value="创新创业教育学院">创新创业教育学院</option>
+                  <option value="城南学院">城南学院</option>
+                  <option value="继续教育学院">继续教育学院</option>
+              </select><br>
+              <p id="p4"></p>
+              <div class="anniu"><input type="button" value="确认" id="qr4" class="qr"><input type="button" value="取消" id="qx4" class="qx"></div>
+          </div>
+          <div class="xiugaikuang">
+              <p>请输入您的邮箱</p>
+              <input type="text" id="email2"><br><br>
+              <p id="p5"></p>
+              <div class="anniu"><input type="button" value="确认" id="qr5" class="qr"><input type="button" value="取消" id="qx5" class="qx"></div>
+          </div>
+          <div class="xiugaikuang">
+              <p>请输入您的密码</p>
+              <input type="password" id="password2"><br><br>
+              <p id="p6"></p>
+              <div class="anniu"><input type="button" value="确认" id="qr6" class="qr"><input type="button" value="取消" id="qx6" class="qx"></div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

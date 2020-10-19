@@ -1,0 +1,384 @@
+*{margin: 0;padding: 0;list-style: none;}
+body,ul,ol,dl,dt,dd,li,h1,h2,h3,h4,h5,h6,p,form,input,table,tr,td,select,textarea{margin:0; padding:0;}
+body{font-size:12px; font-family:"宋体"; line-height:1.5; background:#fff;}
+img{border:none;}
+ul{list-style:none;}
+a{text-decoration:none;}
+ul li{list-style:none;}
+h2{font-size:14px; font-weight:bold;}
+.clear{clear:both; height:0; overflow:hidden;}
+.clearfix:after{content:".";clear:both; height:0; overflow:hidden;visibility:hidden;display:block;}
+.clearfix{zoom:1}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: url('../static/beijing14.jpg');
+	background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+#qx{
+	width: 50px;
+	height: 30px;
+	background: rgba(218,218,212,1);
+	margin: 5px auto;
+	text-align: center;
+	border:none;
+	outline: 0;
+	border-radius: 3px;
+}
+#wenjuan3{
+	display: none;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+/* 导航 */
+.nav{
+	width: 100%;
+	
+	height: 10%;
+	line-height: 50px;
+}
+.nav1{
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+.nav2{
+	position: absolute;
+	height: 10%;
+	float: right;
+	right: 60px;
+	text-align: center;
+}
+.nav2 a:hover{
+	cursor:pointer;
+}
+.nav2 ul{
+	display: none;
+}
+.nav2 li{
+	float: right;
+	font-size: 15px;
+}
+.nav2 li a{
+	text-decoration: none;
+	color: white;
+	padding:15px 30px;
+}
+.div1 ul{ 
+	list-style:none;
+}
+.div1 ul li{ 
+	float:left; 
+	line-height: 60px; 
+	text-align:center; 
+	width:200px;
+}
+.div1{
+	width: 140px;
+	height: 90px;
+	display: block;
+}
+.div1 a{ 
+	text-decoration:none; 
+	color:#000; 
+	display:block;
+	width: 140px;
+	height: 60px;
+}
+.div1 ul li ul li{ 
+	float:none;
+	background-color:#eee; 
+	margin:0px 0px;
+}
+.div1 ul li ul{ 
+	display:none;
+}
+/* 下方 */
+.inform{
+	position: relative;
+	top: 100px;
+	width: 60%;
+	height: 200px;
+	background: rgba(255,255,255,0.7);
+	margin: 30px auto;
+	border-radius: 10px;
+}
+.fabu textarea{
+	background: rgba(255,255,255,0.9);
+}
+h1{
+	padding: 20px;
+}
+h1{
+	text-align: center;
+}
+
+.fabu textarea{
+	padding: 10px;
+	border: 0;
+	display: block;
+	width: 680px;
+	height: 200px;
+	background: rgba(255,255,255,0.9);
+	top: 100px;
+	border-radius: 1%;
+	margin-top: 10px;
+	border-top: 1px solid black;
+	min-height: 100px;
+	font-size: 15px;
+}
+#reworkmes{
+	display: none;
+}
+.fabu textarea:hover,
+.fabu textarea:focus{
+	background: #eee;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+}
+.tongzhi{
+	margin: 0 auto;
+	width: 700px;
+	min-height: 300px;
+	background: rgba(255,255,255,0.9);
+	border-radius: 1%;
+	text-align:center;
+}
+.tongzhi textarea{
+	padding: 10px;
+	border: 0;
+	display: block;
+	width: 680px;
+	height: 200px;
+	background: rgba(255,255,255,0.9);
+	top: 100px;
+	border-radius: 1%;
+	margin-top: 10px;
+	resize: none;
+}
+.quanbu{
+	width: 700px;
+	height: 280px;
+	margin: 0 auto;
+	background: white;
+	position: relative;
+	border: 1px solid black;
+}
+.quanbu input[type="date"]{
+	position: absolute;
+	right: 0px;
+	line-height: 18px;
+}
+.quanbu button{
+	width: 50px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+	background: rgba(255,255,255,0.9);
+	float: right;
+	right: 280px;
+	border-radius: 3px;
+	margin: 0 10px;
+}
+.fabu{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+.fabu button{
+	width: 70px;
+	height: 30px;
+	float: right;
+	border-radius: 4px;
+	margin: 10px 0;
+	background: white;
+}
+.yonghu{
+	width: 800px;
+	background: white;
+	margin: 0 auto;
+	border-radius: 5px;
+	display: none;
+}
+tr,td{
+	width: 700px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 18px;
+}
+#reworkmes p{
+	color: black;
+	font-size: 20px;
+}
+#reworkmes input{
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+}
+.btn{
+	width: 70px;
+	height: 30px;
+}
+.title1{
+	font-size: 20px;
+	width: 250px;
+	height: 30px;
+	float: left;
+	position: relative;
+	left: 225px;
+	border-radius: 5px;
+	border-top: none;
+	text-align: center;
+}
+.author1{
+	font-size: 25px;
+	width: 150px;
+	height: 25px;
+	float: right;
+	position: relative;
+	border-radius: 5px;
+	border-top: none;
+	text-align: center;
+	right: -140px;
+}
+.shijian{
+	height: 30px;
+}
+.fabu1{
+	width: 850px;
+	background: rgba(255,255,255,0.9);
+	margin: 0 auto 0;
+	padding: 40px 0 50px;
+	border-radius: 5px;
+}
+
+.container0{
+	width: 100%;
+	background: rgba(255,255,255,0);
+}
+.wenjuan{
+	width: 100%;
+	margin: 30px auto 0px;
+	border-radius: 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.wenjuan1{
+	width: 100%;
+	padding: -5px;
+}
+@media screen and (min-width: 960px){
+	#xuanxiang{
+		width: 150px;
+		height: 30px;
+		margin: 10px 10px 10px 60px;
+		border-radius: 3px;
+	}
+	.container0 h2{
+		text-align: center;
+		padding: 5px;
+		font-size: 40px;
+	}
+	.container0 h3{
+		text-indent: 50px;
+		padding: 10px;
+		font-size: 20px;
+	}
+	.xuanxiang1{
+		height: 50px;
+		margin-left: 50px;
+		display: inline-block;
+		padding: 10px;
+	}
+	.container0 textarea{
+		width: 35%;
+		height: 100px;
+		margin-left: 50px!important;
+		resize:none;
+		border-radius: 3px!important;
+		font-size: 17px;
+	}
+	#xuanxiang2{
+		margin-left: 50px!important;
+		border-radius: 5px!important;
+	}
+	.container0 .container{
+		position: absolute;
+		float: right;
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.container0 .div1{
+		width: 100%;
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width:960px){
+	#xuanxiang{
+		width: 60%;
+		height: 30px;
+		margin: 10px 10px 10px 20px;
+		border-radius: 3px;
+	}
+	.container0 h2{
+		text-align: center;
+		padding: 10px;
+		font-size: 30px;
+	}
+	.container0 h3{
+		padding: 10px;
+		font-size: 20px;
+	}
+	.xuanxiang1{
+		height: 50px;
+		display: inline-block;
+		padding: 10px;
+	}
+	.container0 textarea{
+		width: 35%;
+		height: 100px;
+		margin-left: 50px!important;
+		resize:none;
+		border-radius: 3px!important;
+		font-size: 17px;
+	}
+	#xuanxiang2{
+		border-radius: 5px!important;
+	}
+	.container0 .container{
+		position: absolute;
+		float: right;
+		width: 100%;
+		height: 1100px;
+		margin: 0 auto;
+	}
+	.container0 .div1{
+		width: 100%;
+		margin-left: 10px;
+		text-align: center;
+	}
+}
+.wenjuan1 h2{
+	font-size: 15px;
+	display: inline-block;
+}
+.container0 .button{
+	width: 50px;
+	height: 30px;
+	background: rgba(255,255,255,1);
+	margin: 5px auto;
+	text-align: center;
+	border:none;
+	outline: 0;
+	border-radius: 3px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员页面</title>
+    <link href="../css/manager.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/manager.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav1"><img src="../static/logo3.png"></div>
+            <div class="nav2">
+                <li class = "div1">
+                    <a id="zhuxiao">注销</a>
+                </li>
+                <li class = "div1">
+                    <a href="#" onclick="displaySubMenu()">发布通知</a>
+                </li>
+                <li class = "div1" onclick="yonghu()">
+                    <a >查询所有用户信息</a>
+                </li>
+                <li class = "div1">
+                    <a href="#" onclick="huoqu()">获取所有通知</a>
+                </li>
+            </div>
+        </div>
+<!--        //获取修改通知-->
+        <div class="tongzhi" id="reworkmes1">
+            <h1>通知</h1>
+        </div>
+<!--        //发布通知-->
+        <div class="fabu1" name="reworkmes" id="reworkmes">
+        <div class="fabu">
+            <p>标题</p>
+            <input type="text" id="title" style="width: 200px">
+            <p>正文</p>
+            <textarea   cols="40"   rows="4"   style="OVERFLOW:   hidden" id="content"></textarea>
+            <p style="display: inline;">日期</p>
+            <p style="display: inline; float: right;">发布人</p><br>
+            <input type="date" id="date" style="display: inline;">
+            <input type="text" id="author" style="display: inline; float: right;"><br>
+            <button id="fb" >发布</button>
+        </div>
+        </div>
+<!--        //获取用户信息-->
+        <div class="yonghu" id="reworkmes2">
+                <div class="wenjuan0"></div>
+                <div class="container0" id="wenjuan3">
+                    <div class="wenjuan">
+            <h2>调查问卷</h2>
+            <div class="wenjuan1">
+                <h3>你报名的方向</h3>
+                <select id="xuanxiang" disabled="disabled">
+                    <option>未选择</option>
+                    <option>硬件技术部</option>
+                    <option>系统技术部</option>
+                    <option>服务端技术部</option>
+                    <option>产品策划部</option>
+                    <option>前端开发部</option>
+                    <option>移动端开发部</option>
+                    <option>游戏开发部</option>
+                </select>
+            </div>
+            <div class="wenjuan1" id="anw2">
+                <h3>有没有学习过相关内容</h3>
+                <label class="xuanxiang1"><input type="checkbox" class="check" name="C语言" style="zoom:200%;" disabled="disabled"><h2>C语言</h2></label>
+                <label class="xuanxiang1"><input type="checkbox" class="check" name="C++" style="zoom:200%;" disabled="disabled"><h2>C++</h2></label>
+                <label class="xuanxiang1"><input type="checkbox" class="check" name="java" style="zoom:200%;" disabled="disabled"><h2>java</h2></label>
+                <label class="xuanxiang1"><input type="checkbox" class="check" name="其他" style="zoom:200%;" disabled="disabled"><h2>其他</h2></label>
+            </div>
+            <div class="wenjuan1">
+                <div class="wenjuan1" id="anw3">
+                    <h3>你喜欢放鸽子吗(举起杀鸽刀)</h3>
+                    <label class="xuanxiang1"><input type="checkbox" name="是" style="zoom:200%;" disabled="disabled"><h2>是</h2></label>
+                    <label class="xuanxiang1"><input type="checkbox" name="不是" style="zoom:200%;" disabled="disabled"><h2>不是</h2></label>
+                </div>
+                <h3>自我介绍以及学习进度</h3>
+                <h3>你对报名方向的看法</h3>
+                <h3>自己和对实验室的学习的一些期望</h3>
+                <div class="div1">
+                    <textarea id="xuanxiang2" rows="3" cols="20" disabled="disabled"></textarea>
+                </div>
+            </div>
+            <div align="center">
+                <input class="button" type="button" value="取消" id="qx">
+            </div>
+        </div>
+    </div>
+            <table id="xx"></table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

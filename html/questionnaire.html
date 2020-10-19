@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>questionnaire</title>
+    <link rel="stylesheet" href="../css/questionnaire.css">
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/questionnaire.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wenjuan">
+            <h2>调查问卷</h2>
+            <div class="wenjuan1">
+                <h3>你报名的方向</h3>
+                <select id="xuanxiang">
+                    <option>未选择</option>
+                    <option>硬件技术部</option>
+                    <option>系统技术部</option>
+                    <option>服务端技术部</option>
+                    <option>产品策划部</option>
+                    <option>前端开发部</option>
+                    <option>移动端开发部</option>
+                    <option>游戏开发部</option>
+                </select>
+            </div>
+            <div class="wenjuan1" id="anw2">
+                <h3>有没有学习过相关内容</h3>
+                <label class="xuanxiang1"><input type="checkbox" class="check" name="C语言" style="zoom:200%;"><h2>C语言</h2></label>
+                <label class="xuanxiang1"><input type="checkbox" class="check" name="C++" style="zoom:200%;"><h2>C++</h2></label>
+                <label class="xuanxiang1"><input type="checkbox" class="check" name="java" style="zoom:200%;"><h2>java</h2></label>
+                <label class="xuanxiang1"><input type="checkbox" class="check" name="其他" style="zoom:200%;"><h2>其他</h2></label>
+            </div>
+            <div class="wenjuan1">
+                <div class="wenjuan1" id="anw3">
+                    <h3>你喜欢放鸽子吗(举起杀鸽刀)</h3>
+                    <label class="xuanxiang1"><input type="checkbox" name="是" style="zoom:200%;"><h2>是</h2></label>
+                    <label class="xuanxiang1"><input type="checkbox" name="不是" style="zoom:200%;"><h2>不是</h2></label>
+                </div>
+                <h3>自我介绍以及学习进度</h3>
+                <h3>你对报名方向的看法</h3>
+                <h3>自己和对实验室的学习的一些期望</h3>
+                <div class="div1">
+                    <textarea id="xuanxiang2" rows="3" cols="20"></textarea>
+                </div>
+            </div>
+            <div align="center">
+                <input class="button" type="button" value="确定" id="qd">
+                <input class="button" type="button" value="取消" id="qx">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

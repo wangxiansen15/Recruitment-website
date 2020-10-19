@@ -1,0 +1,225 @@
+@media screen and (min-width:500px)
+{
+    html{
+        width: 100%;
+        height: 100%;
+        background-image: url("../static/fanlu17.png");
+        background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    #box{
+        width: 850px;
+        background-color:rgba(255,255,255,0.5);
+        border: 2px solid rgb(160,151,137);
+        border-radius: 10px;
+        margin: 20px auto;
+    }
+    #box h1{
+        text-align: center;
+    }
+    #box span{
+        margin-left: 20%;
+    }
+    #box input[type="text"],input[type="password"],select,button{
+        width: 400px;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-left: 20%;
+        border-radius: 10px;
+        font-size: 20px;
+        outline-color: invert ;
+        outline-style: none ;
+        outline-width: 0px ;
+        border: none ;
+        border-style: none ;
+        text-shadow: none ;
+        -webkit-appearance: none ;
+        -webkit-user-select: text ;
+        outline-color: transparent ;
+        box-shadow: none;
+        padding-left: 5px;
+    }
+    #juzhong{
+        width: 200px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    #tj,#qx{
+        width: 60px;
+        height:50px;
+        border-radius: 10px;
+        margin-left: 10px;
+        float: left;
+        background-color:deepskyblue;
+        color: white;
+    }
+    #qx{
+        background-color: white;
+        color: black;
+    }
+    .floatleft{
+        margin-right: 10%;
+        float: right;
+        width: 150px;
+    }
+    #tj:hover{
+        background-color: #16a4d3;
+        cursor:pointer
+    }
+    #qx:hover{
+        background-color: grey;
+        cursor:pointer
+    }
+}
+@media screen and (max-device-width:500px)
+{
+    body{
+        background-image: url("../static/fanlu27.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0 auto;
+    }
+    #box{
+        height: 500px;
+        width: 290px;
+        background-color: rgba(255,255,255,0.5);
+        position: absolute;
+        border: 2px solid rgb(160,151,137);
+        border-radius: 10px;
+        margin: 50px 30px;
+    }
+    #box h1{
+        text-align: center;
+    }
+    #box span{
+        margin-left: 20%;
+    }
+    #box input[type="text"],input[type="password"],select,button{
+        width: 200px;
+        height: 20px;
+        margin-bottom: 5px;
+        margin-left: 20%;
+        border-radius: 2px;
+        font-size: 5px;
+        outline-color: invert ;
+        outline-style: none ;
+        outline-width: 0px ;
+        border: none ;
+        border-style: none ;
+        text-shadow: none ;
+        -webkit-appearance: none ;
+        -webkit-user-select: text ;
+        outline-color: transparent ;
+        box-shadow: none;
+        padding-left: 3px;
+    }
+    #juzhong{
+        width: 80px;
+        height: 20px;
+        margin: 0 auto;
+    }
+    #tj,#qx{
+        width: 30px;
+        height:20px;
+        border-radius: 5px;
+        margin-left: 10px;
+        float: left; background-color:deepskyblue;
+        color: white;
+    }
+    #qx{
+        background-color: white;
+        color: black;
+    }
+    .floatleft{
+        margin-right: 5%;
+        float: right;
+        width: 40px;
+        font-size: 5px;
+    }
+    #tj:hover{
+        background-color: #16a4d3;
+        cursor:pointer
+    }
+    #qx:hover{
+        background-color: grey;
+        cursor:pointer
+    }
+}
+@media screen and (max-width:500px)
+{
+    body{
+        background-image: url("../static/fanlu27.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #box{
+        height: 500px;
+        width: 290px;
+        background-color: rgba(255,255,255,0.5);
+        position: absolute;
+        border: 2px solid rgb(160,151,137);
+        border-radius: 10px;
+        margin: 25% 15%;
+    }
+    #box h1{
+        text-align: center;
+    }
+    #box span{
+        margin-left: 10%;
+    }
+    #box input[type="text"],input[type="password"],select,button{
+        width: 200px;
+        height: 20px;
+        margin-bottom: 5px;
+        margin-left: 10%;
+        border-radius: 2px;
+        font-size: 5px;
+        outline-color: invert ;
+        outline-style: none ;
+        outline-width: 0px ;
+        border: none ;
+        border-style: none ;
+        text-shadow: none ;
+        -webkit-appearance: none ;
+        -webkit-user-select: text ;
+        outline-color: transparent ;
+        box-shadow: none;
+        padding-left: 3px;
+    }
+    #juzhong{
+        width: 80px;
+        height: 20px;
+        margin: 0 auto;
+    }
+    #tj,#qx{
+        width: 30px;
+        height:20px;
+        border-radius: 5px;
+        margin-left: 10px;
+        float: left; background-color:deepskyblue;
+        color: white;
+    }
+    #qx{
+        background-color: white;
+        color: black;
+    }
+    .floatleft{
+        margin-right: 5%;
+        float: right;
+        width: 40px;
+        font-size: 5px;
+    }
+    #tj:hover{
+        background-color: #16a4d3;
+        cursor:pointer
+    }
+    #qx:hover{
+        background-color: grey;
+        cursor:pointer
+    }
+}
